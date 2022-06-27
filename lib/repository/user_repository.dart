@@ -18,7 +18,7 @@ class UserRepository {
     var uri = Uri.http('hajin220.dothome.co.kr', '/insert_user.php', queryPram);
     var response = await http.get(uri);
 
-    print(utf8.decode(response.bodyBytes));
+    //print(utf8.decode(response.bodyBytes));
     //print(response);
     // if (response.body != null) {
     //   Map<String, dynamic> body = json.decode(utf8.decode(response.bodyBytes));
